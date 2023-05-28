@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Ubuntu&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+
+ * {
+   margin: 0;
+   padding: 0;
+ }
+
+ html {
+   scroll-behavior: smooth;
+ }
+
+ .wrapper {
+   display: flex;
+ }
+
+ .dynamic-text {
+   position: relative;
+   margin-left: 1rem;
+   overflow: hidden;
+   line-height: 50px;
+   height: 50px;
+   color: red;
+ }
+
+ .dynamic-text li {
+   position: relative;
+   top: 0;
+   animation: slide 12s steps(3) infinite;
+ }
+
+ @keyframes slide {
+   100% {
+     top: -150px;
+   }
+ }
+
+ .dynamic-text li:after {
+   content: "";
+   left: 0px;
+   height: 100%;
+   width: 100%;
+   background-color: #050816;
+   border-left: 2px solid red;
+   position: absolute;
+   animation: typing 4s steps(16) infinite;
+ }
+
+ @keyframes typing {
+
+   40%,
+   60% {
+     left: calc(100% + 10px);
+   }
+
+   100% {
+     left: 0;
+   }
+ }
