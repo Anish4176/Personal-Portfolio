@@ -10,7 +10,7 @@ const App = () => {
     <BrowserRouter>
 
       <div>
-        <div className="h-[100vh] overflow-x-hidden ">
+        <div className="min-h-screen overflow-x-hidden ">
           <Navbar />
           <hr />
           <Mainsection />
