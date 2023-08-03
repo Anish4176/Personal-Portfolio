@@ -9,9 +9,10 @@ module.exports = {
        },
        colors:{
           bluish:'#050816',
+          hero:'#1F2937'
        },
       backgroundImage: {
-       'hero-pattern': "url('/src/assets/herobg.png')",
+       'hero-pattern': "url('/src/assets/herobg.jpg')",
        'footer-texture': "url('/img/footer-texture.png')",
       }
     }

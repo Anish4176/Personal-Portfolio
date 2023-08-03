@@ -19,9 +19,9 @@
 
  .dynamic-text {
    position: relative;
-   margin-left: 1rem;
+   margin-left: 0.8rem;
    overflow: hidden;
-   line-height: 50px;
+   line-height: 51px;
    height: 50px;
    color: red;
  }

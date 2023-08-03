@@ -1,5 +1,5 @@
 import React from 'react'
-import myimg from '../assets/myimg.png'
+import myimg from '../assets/about.jpg'
 function About() {
 
     return (
@@ -12,12 +12,12 @@ function About() {
                 <hr className='w-1/2 md:w-1/3 mx-auto border-black pb-4 ' />
                 <div className="flex-row xl:flex xl:justify-center xl:items-center">
                     {/* img  */}
-                    <div ><img src={myimg} className=" h-auto rounded-lg  flex m-auto p-2 w-auto " alt="" /></div>
+                    <img src={myimg} className=" h-auto rounded-3xl xl:mx-1  m-4 p-2 w-full mx-auto md:w-1/3  " alt="" />
 
                     <div>
                         {/* about section in detail */}
                         <div className='mx-auto w-fit'>
-                            <p className='p-3   text-xl max-w-2xl mx-auto font-lobster'>I am <span className='text-red-500'>Anish Kumar Singh</span> , a skilled frontend and backend developer.   With expertise in HTML, CSS, and JavaScript.With proficiency in these ( <span className='text-red-500'> React,Bootstrap,Tailwind</span> ) popular front-end frameworks and libraries, I create dynamic and responsive web applications. I create visually appealing and user-friendly interfaces. I excel in backend development using <span className='text-red-500'> Node.js and MongoDB</span>  for robust systems. I also have proficiency in authentication systems and programming languages like <span className='text-red-500'>C++ and JavaScript</span>. Explore my portfolio to see my work and let's collaborate on innovative projects. Reach out to me to discuss opportunities. Let's create something amazing together!</p>
+                            <p className='p-3   text-xl max-w-2xl mx-auto font-lobster'>I am <span className='text-red-500'>Anish Kumar Singh</span> , a skilled frontend and backend developer.   With expertise in  <span className='text-red-500'> Next.js, Mongodb, and User Authentication System</span>. With proficiency in these ( <span className='text-red-500'> Tailblocks,Bootstrap,Tailwind</span> ) popular front-end frameworks and libraries, I create dynamic and responsive web applications. <span className='hidden md:block'> I create visually appealing and user-friendly interfaces. I excel in backend development using <span className='text-red-500'> Node.js and MongoDB</span>  for robust systems. I also have proficiency in authentication systems and programming languages like <span className='text-red-500'>C++ and JavaScript</span>. Explore my portfolio to see my work and let's collaborate on innovative projects. Reach out to me to discuss opportunities. Let's create something amazing together!</span></p>
 
                             {/* download resume button  */}
                             <a href="Resume.pdf" download='Resume.pdf'>
