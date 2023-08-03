@@ -3,7 +3,7 @@ import programmer from '../assets/programmer.png'
 function Mainsection() {
     return (
 
-        <div id='home' className="bg-hero-pattern  bg-no-repeat bg-cover bg-left pt-14 md:pt-1  flex-row lg:flex justify-center items-center min-h-screen xl:justify-start">
+        <div id='home' className="bg-hero-pattern  bg-no-repeat bg-cover bg-left pt-[12rem] md:pt-1  flex-row lg:flex justify-center items-center min-h-screen xl:justify-start">
           <div className='flex justify-center lg:justify-end pt-2 md:pt-[6rem] lg:pt-2 pb-5'>  <img src={programmer} className=" h-auto rounded-full md:mx-[2rem] lg:w-[70%]  w-[60%] text-center" alt="" /></div>
             <div className="flex-row  text-white lg:ml-[9rem] block  ml-[2rem]   space-y-2  items-start w-full justify-center    ">
 
