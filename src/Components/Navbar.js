@@ -3,7 +3,7 @@ import myimg from '../assets/myimg.png'
 function Navbar() {
     return (
         <>
-            <div className="main z-20 bg-bluish text-white md:flex md:justify-between md:items-center top-0 fixed w-[100%] ">
+            <div className="main z-20 bg-bluish text-white md:flex md:justify-between md:items-center top-0 sticky w-[100%] ">
                 <div className=" mx-1 flex items-center h-20">
 
                     <img src={myimg} className="h-16 rounded-full p-1 w-16" alt="" />
